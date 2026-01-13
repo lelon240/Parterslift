@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PARTNERS LIFT - Profesjonalne Usługi Wysokościowe</title>
+<link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/feather-icons"></script>
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+    <script src="components/navbar.js"></script>
+    <script src="components/service-card.js"></script>
+    <script src="components/contact-form.js"></script>
+</head>
+<body class="bg-white font-sans">
+    <custom-navbar></custom-navbar>
+
+    <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <!-- Hero Section -->
+        <section class="py-20">
+            <div class="text-center">
+                <h1 class="hero-title text-4xl md:text-6xl font-bold mb-4">PARTNERS LIFT</h1>
+<p class="text-2xl md:text-3xl text-gray-600 max-w-3xl mx-auto">
+                    Podnośniki koszowe 18-30 m
+                </p>
+                <p class="text-2xl md:text-3xl text-gray-600 max-w-3xl mx-auto mb-10">
+Profesjonalne prace na wysokości z operatorem lub bez. Szybkie terminy, doświadczona obsługa.
+                </p>
+<a href="#kontakt" class="bg-orange-500 hover:bg-orange-600 text-white font-bold py-4 px-10 rounded-lg text-xl transition duration-300 inline-block">
+Skontaktuj się
+                </a>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section class="py-20" id="uslugi">
+            <h2 class="text-3xl md:text-4xl font-bold text-center text-gray-900 mb-12">Nasze usługi</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <custom-service-card 
+                    title="Wycinka i pielęgnacja drzew" 
+                    icon="scissors"
+                    image="https://huggingface.co/spaces/Matyldaaaaa/podno-niki-l-skie-wysoko-to-nasza-specjalno/resolve/main/images/IMG_8908.JPG"
+                    description="Profesjonalna wycinka drzew z użyciem podnośników koszowych.">
+                </custom-service-card>
+                
+                <custom-service-card 
+                    title="Prace na wysokości" 
+                    icon="activity"
+                    image="http://static.photos/construction/640x360/1"
+                    description="Kompleksowe usługi prac na wysokościach z zachowaniem BHP.">
+                </custom-service-card>
+                
+                <custom-service-card 
+                    title="Montaż reklam i banerów" 
+                    icon="image"
+                    image="http://static.photos/construction/640x360/4"
+                    description="Profesjonalny montaż reklam zewnętrznych na budynkach.">
+                </custom-service-card>
+                
+                <custom-service-card 
+                    title="Wynajem podnośników" 
+                    icon="truck"
+                    image="http://static.photos/construction/640x360/6"
+                    description="Wynajem podnośników koszowych 18-30m z operatorem lub bez.">
+                </custom-service-card>
+                
+                <custom-service-card 
+                    title="Mycie elewacji" 
+                    icon="droplet"
+                    image="http://static.photos/construction/640x360/3"
+                    description="Kompleksowe mycie elewacji budynków i konstrukcji.">
+                </custom-service-card>
+                
+                <custom-service-card 
+                    title="Mycie budynków oszklonych" 
+                    icon="home"
+                    image="http://static.photos/construction/640x360/5"
+                    description="Specjalistyczne mycie wysokich budynków z dużymi przeszkleniami.">
+                </custom-service-card>
+                
+                <custom-service-card 
+                    title="Malowanie elewacji" 
+                    icon="brush"
+                    image="http://static.photos/construction/640x360/5"
+                    description="Profesjonalne malowanie wysokich elewacji budynków.">
+                </custom-service-card>
+</div>
+        </section>
+        <!-- Gallery Section -->
+        <section class="py-20">
+            <custom-gallery></custom-gallery>
+        </section>
+
+        <!-- Why Us Section -->
+<section class="py-20 bg-gray-50 rounded-xl">
+            <div class="max-w-4xl mx-auto text-center">
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-12">Dlaczego my?</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                    <div class="p-6">
+                        <i data-feather="award" class="w-12 h-12 text-orange-500 mx-auto mb-4"></i>
+                        <h3 class="text-xl font-bold mb-2">Doświadczona obsługa</h3>
+                        <p class="text-gray-600">Wieloletnie doświadczenie w pracach wysokościowych.</p>
+                    </div>
+                    <div class="p-6">
+                        <i data-feather="tool" class="w-12 h-12 text-orange-500 mx-auto mb-4"></i>
+                        <h3 class="text-xl font-bold mb-2">Nowoczesny sprzęt</h3>
+                        <p class="text-gray-600">Najnowsze podnośniki koszowe i sprzęt do prac wysokościowych.</p>
+                    </div>
+                    <div class="p-6">
+                        <i data-feather="shield" class="w-12 h-12 text-orange-500 mx-auto mb-4"></i>
+                        <h3 class="text-xl font-bold mb-2">Praca zgodnie z BHP</h3>
+                        <p class="text-gray-600">Ścisłe przestrzeganie zasad bezpieczeństwa pracy.</p>
+                    </div>
+                    <div class="p-6">
+                        <i data-feather="clock" class="w-12 h-12 text-orange-500 mx-auto mb-4"></i>
+                        <h3 class="text-xl font-bold mb-2">Szybkie terminy</h3>
+                        <p class="text-gray-600">Realizacja zleceń w krótkim czasie, często już następnego dnia.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Area Section -->
+        <section class="py-20" id="obszar">
+            <div class="max-w-4xl mx-auto text-center">
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-8">Obszar działania</h2>
+                <p class="text-xl text-gray-600 mb-8">Działamy na terenie całego Śląska, w szczególności:</p>
+                <div class="grid grid-cols-2 md:grid-cols-3 gap-4 max-w-md mx-auto">
+                    <div class="bg-orange-50 p-6 rounded-lg text-xl font-medium">Ruda Śląska</div>
+<div class="bg-orange-50 p-4 rounded-lg">Gliwice</div>
+                    <div class="bg-orange-50 p-4 rounded-lg">Bytom</div>
+                    <div class="bg-orange-50 p-4 rounded-lg">Katowice</div>
+                    <div class="bg-orange-50 p-4 rounded-lg">Chorzów</div>
+                    <div class="bg-orange-50 p-4 rounded-lg">Zabrze</div>
+                </div>
+                    <p class="mt-8 text-gray-600">Adres firmy:<br>PARTNERS LIFT, ul. Pawła 1, Ruda Śląska</p>
+</div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="py-20 bg-gray-900 text-white rounded-xl" id="kontakt">
+            <div class="max-w-4xl mx-auto px-4">
+                <h2 class="text-3xl md:text-4xl font-bold text-center mb-12">Kontakt</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                    <div>
+                        <h3 class="text-2xl font-bold mb-4">Zadzwoń teraz</h3>
+                <a href="tel:606911505" class="text-4xl font-bold block mb-10 hover:text-orange-400 transition">606 911 505</a>
+<p class="mb-4"><i data-feather="map-pin" class="inline mr-2"></i> PARTNERS LIFT, Ruda Śląska</p>
+<p class="mb-4"><i data-feather="mail" class="inline mr-2"></i> kontakt@podnosnikislaskie.pl</p>
+                    </div>
+                    <div>
+                        <custom-contact-form></custom-contact-form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-gray-800 text-white py-8">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <p>&copy; 2023 PARTNERS LIFT. Wszelkie prawa zastrzeżone.</p>
+</div>
+    </footer>
+
+    <script>
+        feather.replace();
+    </script>
+    <script src="components/gallery.js"></script>
+    <script src="script.js"></script>
+<script src="https://huggingface.co/deepsite/deepsite-badge.js"></script>
+</body>
+</html>
