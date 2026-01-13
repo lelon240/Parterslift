@@ -1,0 +1,51 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+@import url('https://fonts.cdnfonts.com/css/britannic-bold');
+body {
+    font-family: 'Inter', sans-serif;
+    line-height: 1.8;
+    font-size: 1.2rem;
+}
+.hero-title {
+    font-family: 'Britannic Bold', sans-serif;
+font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    background: linear-gradient(to right, #ff8c00, #ff4500);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 3px 3px 6px rgba(0,0,0,0.2);
+}
+/* Lightbox fix for body scroll */
+body.lightbox-open {
+    overflow: hidden;
+}
+
+/* Smooth scrolling */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Custom orange color */
+.bg-orange-500 {
+    background-color: #f97316;
+}
+.hover\:bg-orange-600:hover {
+    background-color: #ea580c;
+}
+.text-orange-500 {
+    color: #f97316;
+}
+.bg-orange-50 {
+    background-color: #fff7ed;
+}
+
+/* Responsive adjustments */
+@media (max-width: 640px) {
+    .text-4xl {
+        font-size: 2rem;
+    }
+    .text-6xl {
+        font-size: 3rem;
+    }
+}
